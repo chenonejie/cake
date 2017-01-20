@@ -1,0 +1,172 @@
+body{
+	min-height: 20.83rem;
+	position: relative;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	 background-color: #fef1d5;
+	display: flex;
+	flex-direction: row;
+}
+header .icon-dialog,header .icon-shezhi,header .icon-fanhui1{
+	
+	line-height: 2.89rem;
+	 font-size: 1.85rem;
+	color: #95524a;
+
+}
+header a{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.header-mi{
+	flex: 1;
+	text-align: center;
+	line-height: 2.89rem;
+	color: #95524a;  
+}
+
+.address{
+	-moz-box-shadow:0px 10px 12px #333333; 
+	-webkit-box-shadow:0px 10px 12px #333333;
+	 box-shadow:0px 10px 12px #333333;
+	 margin-top: 3.2rem;
+	 padding-left: 0.6rem;
+	 background-image: url(../img/39t58PICwHy_1024.jpg);
+	 background-repeat:no-repeat;
+	 background-size: 100% 100%;
+}
+.address p{
+	line-height: 150%;
+	
+}
+
+.address-name,.address-num,.address-address{
+	font-size: 1rem;
+	line-height: 150%;
+} 
+.goods-list{
+	padding-top: 1rem;
+	
+}
+.goods-item{
+	
+	
+	border-bottom: 1px #000000 solid;
+	padding-top: 0.41rem;
+	padding-bottom: 0.29rem;
+	display: flex;
+}
+.goods-img{
+	width:30%;
+	padding-left: 2%;
+}
+.goods-item .goods-detail{
+	flex: 1;
+	flex-direction: column;
+	display: flex;
+	padding-left: 5%;
+}
+.goods-item{
+	-moz-box-shadow:0px 1px 2px #333333; 
+	-webkit-box-shadow:0px 1px 2px #333333; 
+	box-shadow:0px 1px 2px #333333;
+	margin-bottom: 0.4rem;
+	margin-top: 0.4rem;
+	height: 8rem;
+}
+.goods-detail .goods-title,.goods-sell,.num{
+	flex: 1;
+	font-size: 1rem;
+}
+.goods-title{
+	color: #95524A;
+	line-height:1.45rem;
+	font-size: 1rem;
+}
+.goods-sell {
+	display: flex;
+	flex-direction: row;
+}
+.goods-sell .sell,{
+	flex: 1;
+}
+.money{
+	flex: 1;
+	text-align: center;
+}
+.goods-sell .goods-price{
+	color: #FF0000;
+	text-align: center;
+}
+.num{
+	flex: 1;
+	display: flex;1;
+	flex-direction: row;
+}
+.money{
+	color: red;
+}
+.btn{
+	border: none;
+	border-radius: 0.5rem;
+}
+.message{
+	border-bottom: 0.1rem lightslategrey solid;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 1rem;
+	
+}
+.all-price{
+	color: red;
+	padding-right: 3%;
+	float: right;
+	line-height: 120%;
+}
+.footer{
+	width:100%;
+	height:2.5rem;
+	background-color:#fef1d5;
+	display:flex;
+	padding:0.2rem 0;
+	position:fixed;
+	bottom:0;
+	left:0;
+	
+}
+.footer a{
+	padding-top: 0.6rem ;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.footer .icon-wangwang{
+	font-size: 1.6rem;
+	color: #95524a;
+}
+.footer a span{
+	color: lightslategrey;
+	font-size: 1rem;
+}
+.footer .payment{
+	
+	background-color: #95524A;
+	color: white;
+	padding: 0.3rem 0.5rem;
+	font-size: 1rem;
+	position: absolute;
+	right: 3%;
+	margin-top: 0.2rem;
+}
+/*.alert{
+	z-index: 2;
+	position: fixed;
+	left: 50%;
+	margin-left: -6rem;
+	top: 45%;
+	background-color: lightgoldenrodyellow;
+	padding: 2rem;
+	border-radius: 1rem;
+}*/
